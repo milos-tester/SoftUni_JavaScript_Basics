@@ -3,7 +3,7 @@ function task(input){
     let n = Number(input[0])
     let salary = Number(input[1])
     let data = input
-    for (let i = 2; i <= 12; i++){
+    for (let i = 2; i < input.length; i++){
 
         if (String(data[i]) === "Facebook") {
             salary -= 150;
